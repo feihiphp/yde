@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* 重置 */
+html{ margin:0; padding:0;}
+body{padding:0px; margin:0px;font-family:"Segoe UI","Lucida Grande",Helvetica,Arial,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",FontAwesome,sans-serif;font-size:12px;}
+h1,h2,h3,h4,ul,li,ol,dd,dl,dt,p,form{padding:0px; margin:0px; border:0 none; list-style:none;}
+fieldset{border:none;}
+img{border:none;}
+li{list-style:none;}
+*{ font-style:normal;}
+ol,ul{list-style:none outside none;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+textarea{*overflow:auto; outline:none;}
+input,button,textarea,select{*font-size:100%;outline:none;}
+button{cursor:pointer;overflow:visible;outline:none;}
+input[type="reset"],input[type="button"],input[type="submit"]{cursor:pointer;overflow:visible;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;}
+sup,sub{font-size:100%;vertical-align:baseline;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+section,header,footer{ display:block;}
+p{line-height: 22px;}
+
+/*定位*/
+.tl{text-align:left}
+.tc{text-align:center}
+.tr{text-align:right}
+.bc{margin-left:auto;margin-right:auto;}
+.fl{float:left;display:inline}
+.fr{float:right;display:inline}
+.cb{clear:both}
+.cl{clear:left}
+.cr{clear:right}
+.clearfix:before,.clearfix:after{content:'\0020';display:block;overflow:hidden;visibility:hidden;width:0;height:0;}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0;}
+.vm{vertical-align:middle}
+.pr{position:relative}
+.pa{position:absolute}
+.abs_right{position:absolute;right:0}
+.abs_left{position:absolute;left:0}
+.zoom{zoom:1}
+.hidden{visibility:hidden}
+.none{display:none}
+.block{ display:block;}
+.oh{overflow:hidden;}
+.blank5,.blank10,.blank15,.blank20{clear:both;overflow:hidden;}
+.blank5{height:5px;}
+.blank10{height:10px;}
+.blank15{height:15px;}
+.blank20{height:20px;}

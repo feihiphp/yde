@@ -1,0 +1,364 @@
+body{color:#999; background-color:#fff; min-width:1172px;}
+a{color:#333; text-decoration:none; outline:none;}
+
+.a_000{ color:#000;}
+.a_333{ color:#333;}
+.a_666{ color:#666;}
+.a_999{ color:#999;}
+.a_725{ color:#725ab6;}
+.a_808080{color:#808080;}
+.a_ff5 {color: #ff5d5a;}
+a:hover{color:#e55f53;}
+.font_14{ font-size:14px;}
+.font_16{ font-size:16px;}
+.font_18{ font-size:18px;}
+.font_20{ font-size:20px;}
+.font_22{ font-size:22px;}
+.font_24{ font-size:24px;}
+.font_26{ font-size:26px;}
+.font_30{ font-size:30px;}
+.layoutAuto{width:100%; margin:0px auto;}
+.layout1172{width:1172px; margin:0px auto;}
+.layout1220{width:1220px; margin:0px auto;}
+.border_bottom{ border-bottom: 1px solid #d8d8d8;}
+.no_border{ border:none;}
+.radius{border-radius: 100%;}
+.hafe_radius{border-radius:6px;}
+.bg_fff{ background-color: #fff;}
+.bg_f7f7f7{ background-color: #f7f7f7;}
+.title{ height: 75px; background:url(http://img.sfkedu.com/static/web/2016tm/img/line_icon2.png) left 20px repeat-x;}
+.m0{margin:0px;}
+.m5{margin:5px;}
+.m10{margin:10px;}
+.m15{margin:15px;}
+.m20{margin:20px;}
+.m25{margin:25px;}
+.m30{margin:30px;}
+.m35{margin:35px;}
+.m40{margin:40px;}
+.m45{margin:45px;}
+.m50{margin:50px;}
+.mt0{margin-top:0px;}
+.mt5{margin-top:5px;}
+.mt10{margin-top:10px;}
+.mt15{margin-top:15px;}
+.mt20{margin-top:20px;}
+.mt30{margin-top:30px;}
+.mt35{margin-top:35px;}
+.mt40{margin-top:40px;}
+.mt45{margin-top:45px;}
+.mt50{margin-top:50px;}
+.ml0{margin-left:0px;}
+.ml5{margin-left:5px;}
+.ml10{margin-left:10px;}
+.ml15{margin-left:15px;}
+.ml20{margin-left:20px;}
+.ml25{margin-left:25px;}
+.ml30{margin-left:30px;}
+.ml35{margin-left:35px;}
+.ml40{margin-left:40px;}
+.ml45{margin-left:45px;}
+.ml50{margin-left:50px;}
+.mr0{margin-right:0px;}
+.mr5{margin-right:5px;}
+.mr10{margin-right:10px;}
+.mr15{margin-right:15px;}
+.mr20{margin-right:20px;}
+.mr25{margin-right:25px;}
+.mr30{margin-right:30px;}
+.mr35{margin-right:35px;}
+.mr40{margin-right:40px;}
+.mr45{margin-right:45px;}
+.mr50{margin-right:50px;}
+.mb0{margin-bottom:0px;}
+.mb5{margin-bottom:5px;}
+.mb10{margin-bottom:10px;}
+.mb15{margin-bottom:15px;}
+.mb20{margin-bottom:20px;}
+.mb25{margin-bottom:25px;}
+.mb30{margin-bottom:30px;}
+.mb35{margin-bottom:35px;}
+.mb40{margin-bottom:40px;}
+.mb45{margin-bottom:45px;}
+.mb50{margin-bottom:50px;}
+
+/*内边距*/
+.p0{padding:0px;}
+.p5{padding:5px;}
+.p10{padding:10px;}
+.p15{padding:15px;}
+.p20{padding:20px;}
+.p25{padding:25px;}
+.p30{padding:30px;}
+.p35{padding:35px;}
+.p40{padding:40px;}
+.p45{padding:45px;}
+.p50{padding:50px;}
+.pt5{padding-top:5px;}
+.pt10{padding-top:10px;}
+.pt15{padding-top:15px;}
+.pt20{padding-top:20px;}
+.pt25{padding-top:25px;}
+.pt30{padding-top:30px;}
+.pt35{padding-top:35px;}
+.pt40{padding-top:40px;}
+.pt45{padding-top:45px;}
+.pt50{padding-top:50px;}
+.pt60{ padding-top:60px;}
+.pl0{padding-left:0px;}
+.pl5{padding-left:5px;}
+.pl10{padding-left:10px;}
+.pl15{padding-left:15px;}
+.pl20{padding-left:20px;}
+.pl25{padding-left:25px;}
+.pl30{padding-left:30px;}
+.pl35{padding-left:35px;}
+.pl40{padding-left:40px;}
+.pl45{padding-left:45px;}
+.pl50{padding-left:50px;}
+.pr0{padding-right:0px;}
+.pr5{padding-right:5px;}
+.pr8{padding-right:8px;}
+.pr10{padding-right:10px;}
+.pr15{padding-right:15px;}
+.pr20{padding-right:20px;}
+.pr25{padding-right:25px;}
+.pr30{padding-right:30px;}
+.pr35{padding-right:35px;}
+.pr40{padding-right:40px;}
+.pr45{padding-right:45px;}
+.pr50{padding-right:50px;}
+.pb0{padding-bottom:0px;}
+.pb5{padding-bottom:5px;}
+.pb8{padding-bottom:8px;}
+.pb10{padding-bottom:10px;}
+.pb15{padding-bottom:15px;}
+.pb20{padding-bottom:20px;}
+.pb25{padding-bottom:25px;}
+.pb30{padding-bottom:30px;}
+.pb35{padding-bottom:35px;}
+.pb40{padding-bottom:40px;}
+.pb45{padding-bottom:45px;}
+.pb50{padding-bottom:50px;}
+/*导航*/
+.nav_box{ height: 144px;}
+.nav_list{ padding-top: 75px;}
+.nav_list li{ float:left; padding:0 12px; z-index:999; position: relative;}
+.nav_list li a{padding: 0 6px 6px 6px; display: block;}
+.nav_list li.cur a.a_000{ border-bottom:4px solid #725ab6; color:#000;}
+.nav_list li.curds a.a_000{ border-bottom:4px solid #725ab6; color:#725ab6;}
+.nav_list li dl{ left: 50%; white-space:nowrap; display: none;}
+.nav_list li dl dd{ display: inline-block;}
+.nav_list li dl dd a{padding: 0 6px;}
+.nav_list li dl dd a:hover{ color: #000;}
+.nav_list li dl dd.dd_cur a{ color: #000;}
+.nav_list li.cur dl{ display: block;}
+.nav_list li.cur dl.none{ display: none;}
+.sedarch{background:url(http://img.sfkedu.com/static/web/2016tm/img/search_icon.png) right center no-repeat; float: left; width: 30px; text-indent: -999px;}
+.city_box{ top: 40px; right: 0;}
+.search_input{ border: 0; border-bottom: 3px solid #000; height: 32px; width: 250px; padding: 0 5px;}
+.nav_tag{height:22px; line-height:22px;}
+.nav_tag i{ font-size: 6px; color: #ccc;}
+.nav_phone{ background:url(http://img.sfkedu.com/static/web/2016tm/img/phone_icon.png) left no-repeat; font-weight: bold;}
+/*导航*/
+/*播放*/
+.play_icon i.icon_xl{opacity:0.8;filter:alpha(opacity=80); width:132px; height:132px; left:50%; top:50%; margin-left:-66px; margin-top:-66px; display:block; background:url(http://img.sfkedu.com/static/web/2016tm/img/play_icon_xl.png) no-repeat;}
+.play_icon i.icon_lg{opacity:0.8;filter:alpha(opacity=80); width:98px; height:98px; left:50%; top:50%; margin-left:-49px; margin-top:-49px; display:block; background:url(http://img.sfkedu.com/static/web/2016tm/img/play_icon_lg.png) no-repeat;}
+.play_icon i.icon_sm{opacity:0.8;filter:alpha(opacity=80); width:28px; height:28px; left:50%; top:50%; margin-left:-14px; margin-top:-14px; display:block; background:url(http://img.sfkedu.com/static/web/2016tm/img/play_icon_sm.png) no-repeat;}
+.play_icon .icon_xs{opacity:0.8;filter:alpha(opacity=80); width:98px; height:98px; left:50%; top:50%; margin-left:-49px; margin-top:-49px; display:block; background:url(http://img.sfkedu.com/static/web/2016tm/img/play_icon_lg.png) no-repeat; overflow: hidden; text-indent: -9999px;}
+.play_icon:hover i{opacity:1;filter:alpha(opacity=100);}
+#j_jump_bg{background-color:#000; position:absolute; left:0px; top:0px; z-index:9999; filter:alpha(opacity=60); opacity:0.6; width:100%; height:100%; display:block;}
+#j_jump_box{ width:640px; position:fixed; top:50%; left:50%; margin-left:-320px; margin-top:-280px; background-color:#fff;z-index:9999;border-radius:6px;}
+#j_jump_box h3{ color:#333; font-size:24px;}
+#j_jump_box2{ width:777px; position:fixed; top:50%; left:50%; margin-left:-320px; margin-top:-280px; background-color:#fff;z-index:9999;border-radius:6px;}
+#j_jump_box2 h3{ color:#333; font-size:24px;}
+.j_jump_close{opacity:0.6;filter:alpha(opacity=60);background:url(http://img.sfkedu.com/static/web/2016tm/img/new_close_icon.png) no-repeat; width:30px; height:30px; right:15px; top:15px; overflow:hidden; text-indent:-999px;}
+.j_jump_close:hover,.j_jump_close2:hover{opacity:1;filter:alpha(opacity=100);}
+.black{ width:90%; display:block; padding:8px 5%; background:url(http://img.sfkedu.com/static/web/img/black.png) repeat; color:#fff; left:0; bottom:0;}
+.black2{padding:13px 8%;}
+.btn_lable{ border: 1px solid #d7d6d8; display: inline-block;}
+.btn_lable:hover{border: 1px solid #725ab6; }
+.btn_lable2{ background:#e55f53; display: inline-block;color: #fff;}
+.btn_lable2:hover{background: #cc5449;color: #fff;}
+.hover_img:hover{transform:scale(1.08);-webkit-transform:scale(1.08); transition:all 0.4s ease-out 0s;-webkit-transition:all 0.4s ease-out 0s;}
+.video_tab{ right:0; top: 0; width: 493px;}
+.video_tab li{ cursor: pointer; width: 108px; height: 96px;}
+.video_tab li.cur div{border: 2px solid #725ab6;}
+.video_tab li.cur img{width: 104px; height: 92px;}
+
+.index_hover_box{ padding-bottom:140px;}
+.index_hover_span{ width: 438px; height: 202px; left: 50%; bottom:0; margin-left:-219px; background-image:url(http://img.sfkedu.com/static/web/2016tm/img/index_blank.png); background-position:center 23px; background-repeat: no-repeat;}
+.index_hover_box:hover span{-webkit-box-shadow:0 0 10px rgba(0, 0, 0, .1);  -moz-box-shadow:0 0 10px rgba(0, 0, 0, .1);  box-shadow:0 0 10px rgba(0, 0, 0, .1); background-image:url(http://img.sfkedu.com/static/web/2016tm/img/index_blank_h.png);}
+.index_hover_box:hover strong{ color:#725ab6;}
+.index_hover_span p{ line-height: 24px;}
+.index_hover_span2{ width: 352px;margin-left:-176px; }
+
+.news_box dd{ width: 370px; height: 369px; overflow: hidden;}
+.date_box{ background-color:rgba(225,225,225,0.85); left: 0;top: 0;}
+.date_box strong{ color: #333;}
+.tage_box{ width: 86px; height: 33px; background:url(http://img.sfkedu.com/static/web/2016tm/img/tage_bg.png) no-repeat; line-height: 33px; color: #fff; top: 255px; left:50%; margin-left:-43px;}
+
+.tab_ul li{ border:1px solid #d6d5d7; width:140px; display: inline-block; margin: 0; cursor: pointer;}
+.tab_ul li.cur{ background:#725ab6 ; color: #fff;border:1px solid #725ab6;}
+.tab_dl{ width:1225px;}
+.teacher_box{ width: 185px; padding-right: 60px;}
+.teacher_box img{ width: 185px; height: 185px;}
+.teacher_box span{width: 185px; height: 185px; color:#fff; left: 0; top: 0; overflow: hidden;}
+.teacher_box span font{ width: 60%; padding-left: 20%; padding-top: 20%; line-height:26px; font-size:12px; }
+.teacher_box span font p{ line-height:20px;}
+.teacher_box a:hover span{ display: block;}
+.teacher_box .play_but{ background:url(http://img.sfkedu.com/static/web/2016tm/img/play_icon_xs.png) left 2px no-repeat; color: #999;}
+.index_talk{ background:url(http://img.sfkedu.com/static/web/2016tm/img/talk_icon.png) left 2px no-repeat;}
+.teacher_box .play_but:hover{ background-image:url(http://img.sfkedu.com/static/web/2016tm/img/play_icon_xs_h.png); color: #725ab6;}
+.index_talk:hover{ background-image:url(http://img.sfkedu.com/static/web/2016tm/img/talk_icon_h.png);}
+.page{text-align:center; padding:50px 0px;}
+.page span,.page a{color:#999999; font-size:14px; display:inline-block; height:20px; line-height:20px; overflow:hidden; margin-right:14px;}
+.page a:hover{color:#e46054;}
+.page span{color:#333333;}
+.page a.num{width:20px;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px; margin:0px;}
+.page a.num:hover,.page span.current{width:20px;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px; background-color:#e46054; color:#FFF;margin:0px;}
+
+.news_r_t{ width: 136px;}
+.list_banner_talk1{width: 270px; height: 211px; left: 0; top: 0;}
+.list_banner_talk2{width: 270px; height: 105px; left: 0; top: 211px;}
+.list_banner_talk3{width: 270px; height: 105px; left: 0; top: 316px;}
+.width870{ width: 870px;}
+.width900{ width: 900px;}
+.width270{ width: 270px;}
+.width1168{ width: 1168px;}
+.news_r_title{ width: 260px; border: 5px solid #e5e5e5; height: 44px; line-height: 44px;}
+
+.col-textarea{ background: #f3f4f7; border: 1px solid #e1e1e1; width: 100%; height: 165px;}
+.pass-input { background: #f3f4f7; border: 1px solid #e1e1e1;height: 40px; text-indent: 20px; width: 290px;}
+.pass-select{height: 44px; padding: 0 20px; width:160px;}
+.radio_label{ height: 24px; display: inline-block; line-height: 24px;}
+.radio_i{ width: 24px; height: 24px; background:url(http://img.sfkedu.com/static/web/2016tm/img/radio_icon_n.png) no-repeat; display: block; left: 0; top:0;}
+label.cur .radio_i{background:url(http://img.sfkedu.com/static/web/2016tm/img/radio_icon_h.png) no-repeat;}
+.Validform_error {background-color: #ffeeee!important;}
+.stu_black{ width:90%; height: 84px; display:block; padding:50px 5% 8px 5%; background:url(http://img.sfkedu.com/static/web/2016tm/img/stu_black.png) left bottom repeat-x; color:#fff; left:0; bottom:0;}
+.stu_black p{line-height: 19px; }
+/*播放*/
+.footer_banner{ height:172px; background:url(http://img.sfkedu.com/static/web/2016tm/img/banner_1.jpg) center top no-repeat;}
+.foot_info{ background-color: #333335; height: 332px;}
+.foot_map{background:url(http://img.sfkedu.com/static/web/2016tm/img/map_bg.png) no-repeat; width: 733px; height: 332px; left: -291px; top: 0;}
+.foot_info_box{ padding-top: 75px; padding-left: 70px;}
+.foot_info_box h3{ color: #c2c1c3;border-bottom: 1px solid #59595a;}
+.foot_info_box h4{ color: #c2c1c3;}
+.foot_code{ width: 102px;}
+.foot_phone{ width: 162px;}
+.foot_phone_box{ background:url(http://img.sfkedu.com/static/web/2016tm/img/phone_icon2.png) left 22px no-repeat;}
+.flink{border-top: 1px solid #59595a;}
+.flink a{ display: inline-block; padding: 0 5px 0 0;}
+.foot_tage{ width: 220px;}
+.foot_tage_box a{ display: inline-block; padding: 3px 10px; margin-right: 5px; margin-bottom:8px; border: 1px solid #808080;}
+.foot_tage_box a:hover{border: 1px solid #725ab6;}
+.foot_bottom{ height: 52px; line-height: 52px; color:#626164; background: #1c1c1d;}
+.foot_up{ background: url(http://img.sfkedu.com/static/web/2016tm/img/up_icon.png) right center no-repeat;}
+.foot_up a{ width: 52px; height: 52px; text-indent: -999px;}
+
+.header_logo{ background:url(../../2017/img/logo_2017.png) no-repeat; width:250px; height:56px; text-indent:-999px; overflow:hidden;}
+.float_header{
+	padding-top: 20px;
+	position: fixed; height: 60px; top: 0;-webkit-box-shadow:0 0 10px rgba(0, 0, 0, .1);  -moz-box-shadow:0 0 10px rgba(0, 0, 0, .1);  box-shadow:0 0 10px rgba(0, 0, 0, .1); z-index:9999;}
+.header_list{}
+.header_list li{ float:left; padding:0 12px; z-index:999; position: relative;}
+.header_list li a{padding: 0 6px 6px 6px; display: block;}
+.header_list li.cur a.a_000{ border-bottom:4px solid #725ab6; color:#000;}
+.header_list li.curds a.a_000{ border-bottom:4px solid #725ab6; color:#725ab6;}
+.header_list li dl{ left: 50%; white-space:nowrap; display: none;}
+.header_list li dl dd{ display: inline-block;}
+.header_list li dl dd a{padding: 0 6px;}
+.header_list li dl dd a:hover{ color: #000;}
+.header_list li dl dd.dd_cur a{ color: #000;}
+.header_list li.cur dl{ display: block;}
+.header_list li.cur dl.none{ display: none;}
+
+.float_header .city_box{
+	top: 15px;
+	right: 65px;
+}
+
+/*大师行浮动广告*/
+.dsx_index{
+	position:fixed;
+	left: 0px;
+	top: 50%;
+	margin-top: -177px;
+	width: 22px;
+	height: 22px;
+	background: url(../img/dsx_index_7.png) 0px 0px no-repeat;
+	width: 150px;
+	height: 355px;
+	z-index: 9999;
+	display: none;
+}
+
+.dsx_index a{
+	display: block;
+	width: 72px;
+	height: 21px;
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	margin-left: -36px;
+}
+
+.dsx_index a.dsx_index_go{
+	bottom: 50px;
+}
+
+.dsx_index a.dsx_index_bao{
+	bottom: 75px;
+}
+
+.lives_float_ad{
+	position:fixed;
+	z-index: 10;
+	width: 77px;
+	height: 302px;
+	background: url(../img/index/float_tv.png) 0px 0px no-repeat;
+	z-index: 9999;
+	display: block;
+	right: 0px;
+	bottom: 30px;
+}
+
+.float_400{
+	position:fixed;
+	z-index: 10;
+	width: 150px;
+	height: 329px;
+	background: url(../img/index/400.png) 0px 0px no-repeat;
+	z-index: 9999;
+	display: block;
+	left: 0px;
+	top:50%;
+	margin-top: -164px;
+}
+
+/*底部*/
+.footer {background: #1f1f1f;}
+.footer .con_l {width: 63%;}
+.footer .first {padding: 5% 0 3%;border-bottom: 1px solid #8c8c8c;}
+.footer .first p.slogan {font-size: 22px;font-weight: bold;color: #fff;padding-bottom: 25px;}
+.footer .first>img {width: 50%;margin-right: 10%;}
+.footer .first .tel {display: inline-block;width: 40%;font-size: 18px;color: #fff;}
+.footer .first .tel img {width: 60%;vertical-align: middle;}
+.footer .second {padding: 2% 0 3%;}
+.footer .second>p {display: inline-block;width: 50%;opacity: 0.5;font-size: 12px;color: #fff;margin-right: 8%;line-height: 25px;}
+.footer .second .lianjie {display: inline-block;width: 40%;line-height: 25px;vertical-align: top;}
+.footer .con_l a {opacity: 0.5;font-size: 12px;color: #fff;vertical-align: top;border: 1px solid #8c8c8c;padding: 5px;margin-right: 10px}
+.footer .yq {margin-top: 3%;}
+.footer .yq a {padding: 0 10px;line-height: 20px;display: inline-block;vertical-align: middle;}
+.footer .yq p {display: inline-block;font-size: 12px;color: #fff;opacity: .8;padding-right: .5%;vertical-align: middle;}
+.footer .con_r {width: 32%;text-align: right;}
+.footer .con_r p {display: inline-block;font-size: 12px;color: #8c8c8c;margin: 20% 2% 0;text-align: center;}
+.footer .con_r p.tousu{margin-top: 10%;margin-right: 0;}
+.footer .con_r p>img {width: 100%;}
+.footer .con_r .icon {text-align: right;padding: 5% 0;margin: 0;}
+.footer .con_r .icon a {margin: 0 5px;}
+.footer .copyright {font-size: 12px;color: #8c8c8c;border-top: 1px solid #8c8c8c;padding: 1% 0 2%;line-height: 22px;}
+.clb {
+    height: 0;
+    clear: both;
+}

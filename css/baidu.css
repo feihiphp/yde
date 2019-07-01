@@ -1,0 +1,85 @@
+.contant {
+  width: 233px;
+  height: 317px;
+  position: fixed;
+  left: 0;
+  top: 50%;
+  margin-top: -160px;
+  z-index: 994534;
+}
+.contant .left {
+  width: 80px;
+  float: left;
+  position: relative;
+}
+.contant .left .bj1 {
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+.contant .left .p1 {
+  background:url(../img/baidu/p1.png) no-repeat center;
+}
+.contant .left .p1.active {
+  background:url(../img/baidu/p1-l.png) no-repeat center;
+}
+.contant .left .p2 {
+  background:url(../img/baidu/p2.png) no-repeat center;
+  margin-top: -1px;
+  position: relative;
+}
+
+.contant .left .p2 .res{
+  width: 150px;
+  height: 227px;
+  position: absolute;
+  right: -152px;
+  top: -52px;
+  display: none;
+  background:url(../img/baidu/bj.png) no-repeat center;
+}
+
+.contant .left .p2.active {
+  background:url(../img/baidu/p2-l.png) no-repeat center;
+}
+.contant .left .a {
+  position: relative;
+  height: 80px;
+  margin-top: -1px;
+  background:url(../img/baidu/p3.png) no-repeat center;
+}
+.contant .left .a.active {
+  background:url(../img/baidu/p3-l.png) no-repeat center;
+}
+.contant .left .b {
+  position: relative;
+  height: 80px;
+  margin-top: -1px;
+  background:url(../img/baidu/p4.png) no-repeat center;
+}
+.contant .left .b.active {
+  background:url(../img/baidu/p4-l.png) no-repeat center;
+}
+.contant .left .erweima {
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+.contant .left .rel {
+  width: 154px;
+  height: 159px;
+  background:url(../img/baidu/lxwecat.png) no-repeat center;
+  position: absolute;
+  right: -153px;
+  top: 2px;
+  display: none;
+}
+.contant .left .rek {
+  width: 154px;
+  height: 159px;
+  background:url(../img/baidu/sfk.png) no-repeat center;
+  position: absolute;
+  right: -153px;
+  top: -78px;
+  display: none;
+}
